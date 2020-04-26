@@ -1,6 +1,7 @@
 <%if @student.active%>
 <%@student.active = false %>
-<%else%>
+<%elsif @student.active = false %>
 <%@student.active = true %>
+
 <%end%> 
 <%=@student.active%>
